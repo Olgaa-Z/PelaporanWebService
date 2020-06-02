@@ -23,6 +23,7 @@
                             <label for="usr">Product Name :</label>
                             <input type="text" class="form-control" name="product_name" required="">
                         </div>
+                        
 
                         <div class="form-group">
                             <label for="comment">Product Description :</label>
