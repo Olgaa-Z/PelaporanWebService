@@ -27,8 +27,7 @@ class Berita extends CI_Controller{
   //                 'tanggal' => $this->input->post('in_tanggal')  );    
              $this->Berita_m->insert_db($data);
          
-         } 
-         else {   
+         }else {   
              $error = array(   
                  'error' => $this->upload->display_errors()   
                      );  
@@ -37,6 +36,8 @@ class Berita extends CI_Controller{
          } 
          redirect('Berita');
     }   
+
+
     
     function index() {     
         $this->load->view('berita_v');

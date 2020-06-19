@@ -16,7 +16,7 @@
                     <div class="container">
                         <?php
                         foreach ($berita as $row) {
-                            ?>
+                        ?>
 
                             <form method="post" action="<?php echo site_url('Berita/edit'); ?>"
                                   enctype="multipart/form-data">
@@ -58,7 +58,8 @@
                                         type="submit">Simpan</button>   
                             </form>
 
-<?php } ?>
+<?php } 
+?>
                     </div>      
                 </div>
             </div>

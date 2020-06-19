@@ -3,6 +3,6 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "ecommerce";
+$database = "pelaporan";
 $connect = mysqli_connect($host, $username, $password, $database);
 ?>
